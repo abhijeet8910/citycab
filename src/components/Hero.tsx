@@ -4,24 +4,24 @@ import { Phone } from "lucide-react";
 
 const vehicles = [
   {
-    name: "Hatchback",
+    name: "Rickshaw",
     image:
-      "https://images.unsplash.com/photo-1549924231-f129b911e442?q=80&w=2070",
+      "https://images.unsplash.com/photo-1665206221135-4a2c62677bc4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5kYWluJTIwY2Fic3xlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     name: "Sedan",
     image:
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070",
+      "https://images.unsplash.com/photo-1612563893490-d86ed296e5e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN1dnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     name: "SUV",
     image:
-      "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=2070",
+      "https://images.unsplash.com/photo-1705624843697-4461f9dce482?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1dnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
     name: "Tempo Traveller",
     image:
-      "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=2070",
+      "https://media.istockphoto.com/id/950577080/photo/the-autorickshaw-isolated.webp?a=1&b=1&s=612x612&w=0&k=20&c=9L8MEx6u944k1GtuUcup6p_b2EFYWJoCFUiZM2N7Yh4=",
   },
 ];
 
@@ -47,7 +47,8 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1556122071-e404eaedb77f?q=80&w=2070')",
+            "url('https://images.unsplash.com/photo-1661061968438-97ab151ac32e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGluZGFpbiUyMGNhYnN8ZW58MHx8MHx8fDA%3D')",
+            
         }}
       />
       {/* overlay */}
@@ -96,7 +97,7 @@ export default function Hero() {
         </div>
 
         {/* Vehicle Slider */}
-        <div className="relative bg-white/10 backdrop-blur-md p-4 rounded-xl">
+        <div className="relative bg-white/10  rounded-xl">
           <img
             src={vehicles[index].image}
             alt={vehicles[index].name}
